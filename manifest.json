@@ -7,6 +7,9 @@
     "bookmarks",
     "storage"
   ],
+  "host_permissions": [
+    "https://bookmark-extension-server.onrender.com/*"
+  ],
   "background": {
     "service_worker": "background.js"
   },

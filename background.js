@@ -1,7 +1,7 @@
 // AI-powered getCategory function
 async function getCategory(bookmark) {
     try {
-        const response = await fetch("http://localhost:3000/categorize", {
+        const response = await fetch("https://bookmark-extension-server.onrender.com/categorize", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
